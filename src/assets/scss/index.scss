@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+:root {
+  --user-section-background-color: #f5f5f5;
+  --user-detail-item-color: #535353;
+  --user-action-section-background-color: #fafafa;
+  --user-action-btn-color: #636060;
+  --user-action-heart-btn-color: red;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 30px auto 0px auto;
+  width: 100%;
+  -webkit-box-flex: 1;
+
+  @media (max-width: 576px) {
+    width: calc(100% - 15px);
+  }
+
+  @media (min-width: 576px) {
+    width: 540px;
+  }
+
+  @media (min-width: 768px) {
+    width: 720px;
+  }
+
+  @media (min-width: 992px) {
+    width: 960px;
+  }
+
+  @media (min-width: 1200px) {
+    width: 1140px;
+  }
+
+  @media (min-width: 1400px) {
+    width: 1320px;
+  }
+}
